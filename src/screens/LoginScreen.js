@@ -17,7 +17,7 @@ function LoginScreen() {
     <View style={styles.container}>
       <LoginSVG height={height * 0.54} width={width * 1} />
       <View style={styles.welcomeContainer}>
-        <Text style={styles.welcomeTextStyle}>Welcome Back!</Text>
+        <Text style={styles.welcomeTextStyle}>Welcome Back!!</Text>
         <TouchableOpacity onPress={() => toggleModal()}>
           <QuestionSVG />
         </TouchableOpacity>
